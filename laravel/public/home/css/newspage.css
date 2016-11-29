@@ -1,0 +1,23 @@
+/*main部分*/
+.main{height: 100%;background:#fff;padding-bottom: 60px;margin-top:30px;border:1px solid #EAEAEA;}
+.maintop{height:50px;border-bottom:1px solid #EAEAEA;position: relative; }
+.maintop p{line-height:50px;padding-left:35px;position: relative;}
+.maintop i{width:15px;height:15px;margin-left:15px;background:url(../images/all.png) -217px -196px;position: absolute;top:17px;left:0;}
+/*newsleft部分*/
+.news{height:100%;}
+.newsleft{width:300px;height:100%;}
+.newsleft li{height:60px;border-bottom:1px solid #EAEAEA;margin-left: 25px;position: relative;}
+.cement-title{color:#ff464e;}
+.newsleft li a:hover,.newsleft li a:active{color:#ff464e;}
+.newsleft li h2{line-height: 80px;font-size: 18px;color:#323232;}
+.newsleft li .time{font-size:12px;position: absolute;top:35px;left:0;}
+.newsleft li p{padding-top:15px;}
+.cementbtn{height:60px;line-height:120px;text-align:center;position: relative;}
+.cementbtn i{position:absolute;top:10px;right:130px;background:url(../images/all.png) no-repeat -117px -459px;width:41px;height:41px;}
+
+/*newsbox部分*/
+.newsbox{width:750px;margin:20px 75px;}
+.newstitle{font-size:22px;color:#323232;margin-bottom: 20px;}
+.newsinfo{font-size:12px;color:#8a8a8a;margin-bottom: 20px;}
+.newscontent{line-height:25px;}
+.picture{height:440px;background:gray;}

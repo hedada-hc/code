@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>淘客助手首页index3</title>
+	<meta charset="utf-8" />
+	<meta name="keywords" content="淘客助手、鹊桥活动、淘宝客、淘宝客活动、鹊桥查询"/>
+	<meta name="description" content="淘客助手是一款淘宝客（鹊桥）活动商品查询软件，并集成强大的自定义筛选功能，帮您迅速找到高佣金高转化的推广商品。"/>
+	<link rel="Bookmark" href="./favicon.ico" />
+	<link rel="Shortcut Icon" href="./favicon.ico" />
+	<link rel="stylesheet" type="text/css" href="css/common.css">
+	<link rel="stylesheet" type="text/css" href="css/indexcom.css">
+	<link rel="stylesheet" type="text/css" href="css/index3.css">
+	<script src="js/jquery-1.10.1.min.js"></script>
+    <script type="text/javascript" src="js/unslider.min.js"></script>  
+	<script src="js/jquery.lazyload.js"></script>
+	<!--[if (gte IE 6)&(lte IE 8)]>
+      <script type="text/javascript" src="js/selectivizr.js"></script>
+	<![endif]--> 
+</head>
+<body>
+	<div id="goTop" class="goTop"></div>
+	<div class="hd">
+		<div class="hd1">
+			<div class="hd1 wth">
+			<div class="hd1_left fl">
+				<p>欢迎加入大淘客交流群：107434632（验证语：淘宝客） 商家活动群：138726576（验证语：店铺名）</p>
+			</div> 
+			<div class="hd1_right fr">
+				<ul>
+					<li><a href="#">登录</a></li>
+					<li><a href="#">免费注册</a></li>
+					<li><a href="#">收藏本站</a></li>
+					<li><a href="#">设为首页</a></li>
+				</ul>
+			</div><!--hd1_right结束-->
+			</div><!--hd1 wth结束-->
+		</div><!--hd1结束-->
+		<div class="logo">
+			<div class="hd2 clearfix wth">
+				<h1 class="hd2_left fl"><a href="#"><img src="images/logo.png" alt="淘客助手"></a></h1>
+				<div class="hd2_search fl">
+					<span><a href="#" class="search">站内搜索</a></span>
+					<span><a href="#">鹊桥搜索</a></span>
+					<input type="text" class="search_text fl" placeholder="请输入您要搜索的商品（本站）名称或链接">
+					<input type="button" value="搜 索" class="search_btn fl">
+				</div>
+				<div class="hd2_right fr"><img src="images/logofr.png" alt="让推广更高效"></div>
+			</div><!--hd2 wth结束-->
+			<div class="hd_nav wth">
+					<ul>
+						<li class="nav1"><a href="#" class="navone">首页</a></li>
+						<li><a class="hv" href="#">栏目一</a></li>
+						<li><a class="hv" href="#">栏目二</a></li>
+						<li><a class="hv" href="#">栏目三</a></li>
+						<li><a class="hv" href="#">栏目四</a></li>
+					</ul>
+			</div>
+			<!--hd_nav wth结束-->
+		</div>
+	</div>
+	<!--hd结束-->
+	<div class="subnav">
+			<div class="subnav1 wth">
+				<ul>
+					<li class="sbnv1"><a href="#">栏目一</a></li>
+					<li><a href="#">栏目二</a></li>
+					<li><a href="#">栏目三</a></li>
+					<li><a href="#">栏目四</a></li>
+					<li><a href="#">栏目五</a></li>
+				</ul>
+			</div><!--subnav1 wth结束-->					
+	</div><!--subnav结束-->
+	<div class="wth">
+		<div class="searchfail">
+			<i></i>
+			<p class="pfail">抱歉！没有找到与<span>“的高规格个你高科技和规范公开就很反感结婚芳” </span>相关的宝贝。</p>
+			<p>别担心，我们在下面给您推荐了一些优质商品，或者您也可以<a href="#">返回首页</a></p>
+		</div>
+	</div>
+	<div class="goods">
+		<div class="goods1 wth clearfix">
+			<div class="menu">
+				<div class="menu1 clearfix">
+					<ul>
+						<li class="mu1"><a href="#" class="awidth">默认排序</a></li>
+						<li class="price mu1"><a href="#" class="awidth">价格从高到低</a>
+							<div class="pricetrend">
+									<p><a href="#">价格从高到低</a></p>
+									<p><a href="#" class="pricetrend2">价格从低到高</a></p>
+							</div>
+						</li>
+						<li><a href="#" class="awidth">销量销量销量销量销量销量</a></li>
+						<li class="commission"><a href="#" class="awidth">佣金</a>
+							<div class="commission_rate_trend">
+								<p><a href="#">佣金从高到低</a></p>
+								<p><a href="#" class="commission2">佣金从低到高</a></p>
+							</div>
+						</li>	
+					</ul>
+					<div class="menu-last"><a href="#">&lt;</a>&nbsp;&nbsp;1/100&nbsp;&nbsp;<a href="#">&gt;</a></div>
+				</div>
+				<div class="menu2 clearfix">
+					<ul>
+						<li class="input1"><input type="checkbox" name="shop" id="thestore"/><label for="thestore">天猫旗舰店</label></li>
+						<li class="input2 btn1"><label for="insales">月销量</label>
+							<input type="text" id="insales"/>&nbsp;<span class="ipt-color">笔及以上</span>
+							<button type="button">确定</button>
+						</li>
+						<li class="input2 btn2"><label for="income">收入比率</label>
+							<input type="text" id="income"/>
+							<span class="ipt-color">&nbsp;%&mdash;&nbsp;
+							<input type="text" />&nbsp;%</span>
+							<button type="button">确定</button>
+						</li>
+						<li class="input2 btn3"><label for="theprice">价格</label>
+							<input type="text" id="theprice"/>
+							<span class="ipt-color">&nbsp;元&mdash;<input type="text" />&nbsp;元</span>
+							<button type="button">确定</button>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<ul class="mg clearfix">
+				<li class="good1_one fl">
+					<div class="goods-a">
+						<a href="#"><img src="images/goods3.png"></a>
+						<div class="title">
+							<i class="tit0"></i>
+							<p><a href="#">俞兆林夏季破洞牛仔裤女九分裤高腰弹</a></p>
+						</div>
+						<div class="coupon">优惠券<span class="num1 gd_wd">20</span>元，剩余数量<span class="num2 gd_wd">4140</span>/<span class="num3">5000</span></div>
+						<div class="commission">
+							<ul>
+								<li class="com1 gd_wd2 fl">佣金<span>61%</span></li>
+								<li class="com2 fl">定向</li>
+								<li class="com3 fl">秒过</li>
+								<li class="com4 fr">目前销量<span class="com4_num gd_wd2">29362</span></li>
+							</ul>					
+						</div>
+						<div class="good_btm">
+							<ul>
+								<li class="btm1 fl">券后&nbsp;&yen;&nbsp;<span class="value">9.8</span></li>
+								<li class="btm2 fl">&yen;29.8</li>
+								<li class="btm3 fr"><a href="#">加入推广</a></li>
+							</ul>
+						</div>
+					</div>
+				</li><!--good1_one结束-->
+				<li class="good1_one fl">
+					<div class="goods-a">
+						<a href="#"><img src="images/goods3.png"></a>
+						<div class="title">
+							<i class="tit0"></i>
+							<p><a href="#">俞兆林夏季破洞牛仔裤女九分裤高腰弹</a></p>
+						</div>
+						<div class="coupon">优惠券<span class="num1 gd_wd">20</span>元，剩余数量<span class="num2 gd_wd">4140</span>/<span class="num3">5000</span></div>
+						<div class="commission">
+							<ul>
+								<li class="com1 gd_wd2 fl">佣金<span>61%</span></li>
+								<li class="com2 fl">定向</li>
+								<li class="com3 fl">秒过</li>
+								<li class="com4 fr">目前销量<span class="com4_num gd_wd2">29362</span></li>
+							</ul>					
+						</div>
+						<div class="good_btm">
+							<ul>
+								<li class="btm1 fl">券后&nbsp;&yen;&nbsp;<span class="value">9.8</span></li>
+								<li class="btm2 fl">&yen;29.8</li>
+								<li class="btm3 fr"><a href="#">加入推广</a></li>
+							</ul>
+						</div>
+					</div>
+				</li><!--good1_one结束-->
+				<li class="good1_one fl">
+					<div class="goods-a">
+						<a href="#"><img src="images/goods3.png"></a>
+						<div class="title">
+							<i class="tit0"></i>
+							<p><a href="#">俞兆林夏季破洞牛仔裤女九分裤高腰弹</a></p>
+						</div>
+						<div class="coupon">优惠券<span class="num1 gd_wd">20</span>元，剩余数量<span class="num2 gd_wd">4140</span>/<span class="num3">5000</span></div>
+						<div class="commission">
+							<ul>
+								<li class="com1 gd_wd2 fl">佣金<span>61%</span></li>
+								<li class="com2 fl">定向</li>
+								<li class="com3 fl">秒过</li>
+								<li class="com4 fr">目前销量<span class="com4_num gd_wd2">29362</span></li>
+							</ul>					
+						</div>
+						<div class="good_btm">
+							<ul>
+								<li class="btm1 fl">券后&nbsp;&yen;&nbsp;<span class="value">9.8</span></li>
+								<li class="btm2 fl">&yen;29.8</li>
+								<li class="btm3 fr"><a href="#">加入推广</a></li>
+							</ul>
+						</div>
+					</div>
+				</li><!--good1_one结束-->
+				<li class="good1_one fl">
+					<div class="goods-a">
+						<a href="#"><img src="images/goods3.png"></a>
+						<div class="title">
+							<i class="tit0"></i>
+							<p><a href="#">俞兆林夏季破洞牛仔裤女九分裤高腰弹</a></p>
+						</div>
+						<div class="coupon">优惠券<span class="num1 gd_wd">20</span>元，剩余数量<span class="num2 gd_wd">4140</span>/<span class="num3">5000</span></div>
+						<div class="commission">
+							<ul>
+								<li class="com1 gd_wd2 fl">佣金<span>61%</span></li>
+								<li class="com2 fl">定向</li>
+								<li class="com3 fl">秒过</li>
+								<li class="com4 fr">目前销量<span class="com4_num gd_wd2">29362</span></li>
+							</ul>					
+						</div>
+						<div class="good_btm">
+							<ul>
+								<li class="btm1 fl">券后&nbsp;&yen;&nbsp;<span class="value">9.8</span></li>
+								<li class="btm2 fl">&yen;29.8</li>
+								<li class="btm3 fr"><a href="#">加入推广</a></li>
+							</ul>
+						</div>
+					</div>
+				</li><!--good1_one结束-->
+				<li class="good1_one fl">
+					<div class="goods-a">
+						<a href="#"><img src="images/goods1.png"></a>
+						<div class="newdays2 newd1"></div>
+						<div class="title">
+							<i class="tit1"></i>
+							<p><a href="#">俞兆林夏季破洞牛仔裤女九分裤高腰弹</a></p>
+						</div>
+						<div class="coupon">优惠券<span class="num1 gd_wd">20</span>元，剩余数量<span class="num2 gd_wd">4140</span>/<span class="num3">5000</span></div>
+						<div class="commission">
+							<ul>
+								<li class="com1 gd_wd2 fl">佣金<span>61%</span></li>
+								<li class="com2 fl">定向</li>
+								<li class="com3 fl">秒过</li>
+								<li class="com4 fr">目前销量<span class="com4_num gd_wd2">29362</span></li>
+							</ul>					
+						</div>
+						<div class="good_btm">
+							<ul>
+								<li class="btm1 fl">券后&nbsp;&yen;&nbsp;<span class="value">9.8</span></li>
+								<li class="btm2 fl">&yen;29.8</li>
+								<li class="btm3 fr"><a href="#">加入推广</a></li>
+							</ul>
+						</div>
+					</div>
+				</li>				
+				<li class="good1_one fl">
+					<div class="goods-a">
+						<a href="#"><img src="images/goods1.png"></a>
+						<div class="newdays2 newd1"></div>
+						<div class="title">
+							<i class="tit1"></i>
+							<p><a href="#">俞兆林夏季破洞牛仔裤女九分裤高腰弹</a></p>
+						</div>
+						<div class="coupon">优惠券<span class="num1 gd_wd">20</span>元，剩余数量<span class="num2 gd_wd">4140</span>/<span class="num3">5000</span></div>
+						<div class="commission">
+							<ul>
+								<li class="com1 gd_wd2 fl">佣金<span>61%</span></li>
+								<li class="com2 fl">定向</li>
+								<li class="com3 fl">秒过</li>
+								<li class="com4 fr">目前销量<span class="com4_num gd_wd2">29362</span></li>
+							</ul>					
+						</div>
+						<div class="good_btm">
+							<ul>
+								<li class="btm1 fl">券后&nbsp;&yen;&nbsp;<span class="value">9.8</span></li>
+								<li class="btm2 fl">&yen;29.8</li>
+								<li class="btm3 fr"><a href="#">加入推广</a></li>
+							</ul>
+						</div>
+					</div>
+				</li>
+				<li class="good1_one fl">
+					<div class="goods-a">
+						<a href="#"><img src="images/goods1.png"></a>
+						<div class="newdays2 newd1"></div>
+						<div class="title">
+							<i class="tit1"></i>
+							<p><a href="#">俞兆林夏季破洞牛仔裤女九分裤高腰弹</a></p>
+						</div>
+						<div class="coupon">优惠券<span class="num1 gd_wd">20</span>元，剩余数量<span class="num2 gd_wd">4140</span>/<span class="num3">5000</span></div>
+						<div class="commission">
+							<ul>
+								<li class="com1 gd_wd2 fl">佣金<span>61%</span></li>
+								<li class="com2 fl">定向</li>
+								<li class="com3 fl">秒过</li>
+								<li class="com4 fr">目前销量<span class="com4_num gd_wd2">29362</span></li>
+							</ul>					
+						</div>
+						<div class="good_btm">
+							<ul>
+								<li class="btm1 fl">券后&nbsp;&yen;&nbsp;<span class="value">9.8</span></li>
+								<li class="btm2 fl">&yen;29.8</li>
+								<li class="btm3 fr"><a href="#">加入推广</a></li>
+							</ul>
+						</div>
+					</div>
+				</li>
+				<li class="good1_one fl">
+					<div class="goods-a">
+						<a href="#"><img src="images/goods1.png"></a>
+						<div class="newdays2 newd1"></div>
+						<div class="title">
+							<i class="tit1"></i>
+							<p><a href="#">俞兆林夏季破洞牛仔裤女九分裤高腰弹</a></p>
+						</div>
+						<div class="coupon">优惠券<span class="num1 gd_wd">20</span>元，剩余数量<span class="num2 gd_wd">4140</span>/<span class="num3">5000</span></div>
+						<div class="commission">
+							<ul>
+								<li class="com1 gd_wd2 fl">佣金<span>61%</span></li>
+								<li class="com2 fl">定向</li>
+								<li class="com3 fl">秒过</li>
+								<li class="com4 fr">目前销量<span class="com4_num gd_wd2">29362</span></li>
+							</ul>					
+						</div>
+						<div class="good_btm">
+							<ul>
+								<li class="btm1 fl">券后&nbsp;&yen;&nbsp;<span class="value">9.8</span></li>
+								<li class="btm2 fl">&yen;29.8</li>
+								<li class="btm3 fr"><a href="#">加入推广</a></li>
+							</ul>
+						</div>
+					</div>
+				</li>
+				<li class="good1_one fl">
+					<div class="goods-a">
+						<a href="#"><img class="lazy" alt="上衣" data-original="images/goods2.png"></a>
+						<div class="newdays2 newd2"></div>
+						<div class="title">
+							<i class="tit0"></i>
+							<p><a href="#">俞兆林夏季破洞牛仔裤女九分裤高腰弹</a></p>
+						</div>
+						<div class="coupon">优惠券<span class="num1 gd_wd1">20</span>元，剩余数量<span class="num2 gd_wd1">4140</span>/<span class="num3">5000</span></div>
+						<div class="commission">
+							<ul>
+								<li class="com1 gd_wd2 fl">佣金<span>61%</span></li>
+								<li class="com2 fl">定向</li>
+								<li class="com3 fl">秒过</li>
+								<li class="com4 fr">目前销量<span class="com4_num gd_wd2">29362</span></li>
+							</ul>					
+						</div>
+						<div class="good_btm">
+							<ul>
+								<li class="btm1 fl">券后&nbsp;&yen;&nbsp;<span class="value">9.8</span></li>
+								<li class="btm2 fl">&yen;29.8</li>
+								<li class="btm3 fr"><a href="#">加入推广</a></li>
+							</ul>
+						</div>
+					</div>
+				</li>
+				<li class="good1_one fl">
+					<div class="goods-a">
+						<a href="#"><img class="lazy" alt="上衣" data-original="images/goods2.png"></a>
+						<div class="newdays2 newd2"></div>
+						<div class="title">
+							<i class="tit0"></i>
+							<p><a href="#">俞兆林夏季破洞牛仔裤女九分裤高腰弹</a></p>
+						</div>
+						<div class="coupon">优惠券<span class="num1 gd_wd1">20</span>元，剩余数量<span class="num2 gd_wd1">4140</span>/<span class="num3">5000</span></div>
+						<div class="commission">
+							<ul>
+								<li class="com1 gd_wd2 fl">佣金<span>61%</span></li>
+								<li class="com2 fl">定向</li>
+								<li class="com3 fl">秒过</li>
+								<li class="com4 fr">目前销量<span class="com4_num gd_wd2">29362</span></li>
+							</ul>					
+						</div>
+						<div class="good_btm">
+							<ul>
+								<li class="btm1 fl">券后&nbsp;&yen;&nbsp;<span class="value">9.8</span></li>
+								<li class="btm2 fl">&yen;29.8</li>
+								<li class="btm3 fr"><a href="#">加入推广</a></li>
+							</ul>
+						</div>
+					</div>
+				</li>
+				<li class="good1_one fl">
+					<div class="goods-a">
+						<a href="#"><img class="lazy" alt="上衣" data-original="images/goods2.png"></a>
+						<div class="newdays2 newd2"></div>
+						<div class="title">
+							<i class="tit0"></i>
+							<p><a href="#">俞兆林夏季破洞牛仔裤女九分裤高腰弹</a></p>
+						</div>
+						<div class="coupon">优惠券<span class="num1 gd_wd1">20</span>元，剩余数量<span class="num2 gd_wd1">4140</span>/<span class="num3">5000</span></div>
+						<div class="commission">
+							<ul>
+								<li class="com1 gd_wd2 fl">佣金<span>61%</span></li>
+								<li class="com2 fl">定向</li>
+								<li class="com3 fl">秒过</li>
+								<li class="com4 fr">目前销量<span class="com4_num gd_wd2">29362</span></li>
+							</ul>					
+						</div>
+						<div class="good_btm">
+							<ul>
+								<li class="btm1 fl">券后&nbsp;&yen;&nbsp;<span class="value">9.8</span></li>
+								<li class="btm2 fl">&yen;29.8</li>
+								<li class="btm3 fr"><a href="#">加入推广</a></li>
+							</ul>
+						</div>
+					</div>
+				</li>
+				<li class="good1_one fl">
+					<div class="goods-a">
+						<a href="#"><img class="lazy" alt="上衣" data-original="images/goods2.png"></a>
+						<div class="newdays2 newd2"></div>
+						<div class="title">
+							<i class="tit0"></i>
+							<p><a href="#">俞兆林夏季破洞牛仔裤女九分裤高腰弹</a></p>
+						</div>
+						<div class="coupon">优惠券<span class="num1 gd_wd1">20</span>元，剩余数量<span class="num2 gd_wd1">4140</span>/<span class="num3">5000</span></div>
+						<div class="commission">
+							<ul>
+								<li class="com1 gd_wd2 fl">佣金<span>61%</span></li>
+								<li class="com2 fl">定向</li>
+								<li class="com3 fl">秒过</li>
+								<li class="com4 fr">目前销量<span class="com4_num gd_wd2">29362</span></li>
+							</ul>					
+						</div>
+						<div class="good_btm">
+							<ul>
+								<li class="btm1 fl">券后&nbsp;&yen;&nbsp;<span class="value">9.8</span></li>
+								<li class="btm2 fl">&yen;29.8</li>
+								<li class="btm3 fr"><a href="#">加入推广</a></li>
+							</ul>
+						</div>
+					</div>
+				</li>
+				<li class="good1_one fl">
+					<div class="goods-a">
+						<a href="#"><img class="lazy" alt="上衣" data-original="images/goods3.png"></a>
+						<div class="newdays2 newd2"></div>
+						<div class="title">
+							<i class="tit1"></i>
+							<p><a href="#">俞兆林夏季破洞牛仔裤女九分裤高腰弹</a></p>
+						</div>
+						<div class="coupon">优惠券<span class="num1 gd_wd">20</span>元，剩余数量<span class="num2 gd_wd">4140</span>/<span class="num3">5000</span></div>
+						<div class="commission">
+							<ul>
+								<li class="com1 gd_wd2 fl">佣金<span>61%</span></li>
+								<li class="com2 fl">定向</li>
+								<li class="com3 fl">秒过</li>
+								<li class="com4 fr">目前销量<span class="com4_num gd_wd2">29362</span></li>
+							</ul>					
+						</div>
+						<div class="good_btm">
+							<ul>
+								<li class="btm1 fl">券后&nbsp;&yen;&nbsp;<span class="value">9.8</span></li>
+								<li class="btm2 fl">&yen;29.8</li>
+								<li class="btm3 fr"><a href="#">加入推广</a></li>
+							</ul>
+						</div>
+					</div>
+				</li>
+				<li class="good1_one fl">
+					<div class="goods-a">
+						<a href="#"><img class="lazy" alt="上衣" data-original="images/goods3.png"></a>
+						<div class="newdays2 newd2"></div>
+						<div class="title">
+							<i class="tit1"></i>
+							<p><a href="#">俞兆林夏季破洞牛仔裤女九分裤高腰弹</a></p>
+						</div>
+						<div class="coupon">优惠券<span class="num1 gd_wd">20</span>元，剩余数量<span class="num2 gd_wd">4140</span>/<span class="num3">5000</span></div>
+						<div class="commission">
+							<ul>
+								<li class="com1 gd_wd2 fl">佣金<span>61%</span></li>
+								<li class="com2 fl">定向</li>
+								<li class="com3 fl">秒过</li>
+								<li class="com4 fr">目前销量<span class="com4_num gd_wd2">29362</span></li>
+							</ul>					
+						</div>
+						<div class="good_btm">
+							<ul>
+								<li class="btm1 fl">券后&nbsp;&yen;&nbsp;<span class="value">9.8</span></li>
+								<li class="btm2 fl">&yen;29.8</li>
+								<li class="btm3 fr"><a href="#">加入推广</a></li>
+							</ul>
+						</div>
+					</div>
+				</li>
+				<li class="good1_one fl">
+					<div class="goods-a">
+						<a href="#"><img class="lazy" alt="上衣" data-original="images/goods3.png"></a>
+						<div class="newdays2 newd2"></div>
+						<div class="title">
+							<i class="tit1"></i>
+							<p><a href="#">俞兆林夏季破洞牛仔裤女九分裤高腰弹</a></p>
+						</div>
+						<div class="coupon">优惠券<span class="num1 gd_wd">20</span>元，剩余数量<span class="num2 gd_wd">4140</span>/<span class="num3">5000</span></div>
+						<div class="commission">
+							<ul>
+								<li class="com1 gd_wd2 fl">佣金<span>61%</span></li>
+								<li class="com2 fl">定向</li>
+								<li class="com3 fl">秒过</li>
+								<li class="com4 fr">目前销量<span class="com4_num gd_wd2">29362</span></li>
+							</ul>					
+						</div>
+						<div class="good_btm">
+							<ul>
+								<li class="btm1 fl">券后&nbsp;&yen;&nbsp;<span class="value">9.8</span></li>
+								<li class="btm2 fl">&yen;29.8</li>
+								<li class="btm3 fr"><a href="#">加入推广</a></li>
+							</ul>
+						</div>
+					</div>
+				</li>
+				<li class="good1_one fl">
+					<div class="goods-a">
+						<a href="#"><img class="lazy" alt="上衣" data-original="images/goods3.png"></a>
+						<div class="newdays2 newd2"></div>
+						<div class="title">
+							<i class="tit1"></i>
+							<p><a href="#">俞兆林夏季破洞牛仔裤女九分裤高腰弹</a></p>
+						</div>
+						<div class="coupon">优惠券<span class="num1 gd_wd">20</span>元，剩余数量<span class="num2 gd_wd">4140</span>/<span class="num3">5000</span></div>
+						<div class="commission">
+							<ul>
+								<li class="com1 gd_wd2 fl">佣金<span>61%</span></li>
+								<li class="com2 fl">定向</li>
+								<li class="com3 fl">秒过</li>
+								<li class="com4 fr">目前销量<span class="com4_num gd_wd2">29362</span></li>
+							</ul>					
+						</div>
+						<div class="good_btm">
+							<ul>
+								<li class="btm1 fl">券后&nbsp;&yen;&nbsp;<span class="value">9.8</span></li>
+								<li class="btm2 fl">&yen;29.8</li>
+								<li class="btm3 fr"><a href="#">加入推广</a></li>
+							</ul>
+						</div>
+					</div>
+				</li>
+			</ul>
+		</div><!--goods1 wth结束-->
+		<div class="pages wth">
+			<ul class="pagination">
+			    <li class="disabled"><span>上一页</span></li> 
+			    <li class="active"><span>1</span></li>
+			    <li><a href="2">2</a></li>
+			    <li><a href="3">3</a></li>
+			    <li class="disabled"><span>...</span></li>
+			    <li><a href="7">7</a></li>
+			    <li><a href="#" rel="next">下一页</a></li>
+			</ul>
+		</div>
+	</div><!--goods结束-->
+	<div class="foot">
+		<div class="foot1 wth">
+			<ul>
+			<li><img src="images/foot1.png" alt="二维码"></li>
+			<li>帮助中心
+				<ul><li><a href="#">淘宝助手安装指南</a></li></ul>
+			</li>
+			<li>常见问题
+				<ul>
+					<li><a href="#">招商规则</a></li>
+					<li><a href="#">违规商家处罚</a></li>
+					<li><a href="#">商家如何报名</a></li>
+				</ul>
+			</li>
+			<li>投诉意见
+				<ul>
+					<li><a href="#">招商违规投诉</a></li>
+					<li><a href="#">应用建议</a></li>
+				</ul>
+			</li>
+			<li>关于我们
+				<ul>
+					<li><a href="#">关于我们</a></li>
+					<li><a href="#">联系我们</a></li>
+				</ul>
+			</li>
+			<li class="images_ft02"></li>
+			</ul>
+		</div>
+		
+		<div class="foot2">
+			<div class="foot2_image wth">
+				<ul>
+					<li class="imageone"></li>
+					<li class="imagetwo"></li>
+					<li class="imagethree"></li>
+					<li class="install"><a href="#"></a></li>
+				</ul>	
+			</div>
+		</div>
+	</div><!--foot结束-->  
+    <script type="text/javascript" src="js/index1.js"></script>
+</body>
+</html>
